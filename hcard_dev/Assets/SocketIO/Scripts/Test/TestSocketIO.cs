@@ -29,58 +29,57 @@
 using System.Collections;
 using UnityEngine;
 using SocketIO;
+using System.Collections.Generic;
 
 public class TestSocketIO : MonoBehaviour
 {
 	private SocketIOComponent socket;
+    private IDictionary<string, string> json_data = new Dictionary<string, string>();
+
+    public float alpha;
+    public float beta;
+    public float gamma;
 
 	public void Start() 
 	{
 		GameObject go = GameObject.Find("SocketIO");
 		socket = go.GetComponent<SocketIOComponent>();
 
-		socket.On("open", TestOpen);
-		socket.On("UnityMsg", UnityMsgHandler);
-		socket.On("error", TestError);
-		socket.On("close", TestClose);
+		socket.On("open", connectionOpen);
+		socket.On("unityMsg", unityMsgHandler);
+		socket.On("error", connectionError);
+		socket.On("close", connectionClose);
 	}
 
     private void Update()
     {
-        socket.Emit("beep");
+        socket.Emit("angleRequestMsg");
     }
 
-    public void TestOpen(SocketIOEvent e)
+    public void connectionOpen(SocketIOEvent e)
 	{
-		Debug.Log("[SocketIO] Open received: " + e.name + " " + e.data);
+
+        Debug.Log("[SocketIO] Open received: " + e.name + " " + e.data);
 	}
 	
-	public void UnityMsgHandler(SocketIOEvent e)
+	public void unityMsgHandler(SocketIOEvent e)
 	{
-		Debug.Log("[SocketIO] Boop received: " + e.name + " " + e.data);
+		// Debug.Log("[SocketIO] Angles received: " + e.name + " " + e.data);
 
-		if (e.data == null) { return; }
+        json_data = e.data.ToDictionary();
 
-		Debug.Log(
-			"#####################################################" +
-			"THIS: " + e.data.GetField("this").str +
-			"#####################################################"
-		);
-	}
+        alpha = float.Parse(json_data["alpha"]);
+        beta = float.Parse(json_data["beta"]);
+        gamma = float.Parse(json_data["gamma"]);
+    }
 	
-	public void TestError(SocketIOEvent e)
+	public void connectionError(SocketIOEvent e)
 	{
 		Debug.Log("[SocketIO] Error received: " + e.name + " " + e.data);
 	}
 	
-	public void TestClose(SocketIOEvent e)
+	public void connectionClose(SocketIOEvent e)
 	{	
 		Debug.Log("[SocketIO] Close received: " + e.name + " " + e.data);
 	}
-
-    public void unity_msgHandler(SocketIOEvent e)
-    {
-        Debug.Log("Dini mueter!!!");
-        print("Dini mueter!!!");
-    }
 }
