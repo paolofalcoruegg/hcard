@@ -18,6 +18,8 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        angleReceiver = GetComponent<TestSocketIO>();
+
     }
 
     private void FixedUpdate() //called before performing any calculations
