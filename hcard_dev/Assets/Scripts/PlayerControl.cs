@@ -24,10 +24,15 @@ public class PlayerControl : MonoBehaviour
 
     private void FixedUpdate() //called before performing any calculations
     {
-        Vector3 angles = new Vector3(Convert.ToSingle(Math.Sin(angleReceiver.alpha)), Convert.ToSingle(Math.Sin(angleReceiver.beta)), Convert.ToSingle(Math.Sin(angleReceiver.gamma)));
+        
+        // have to lean forwards to move forwards
+        Vector3 angles1 = new Vector3(Convert.ToSingle(angleReceiver.beta-180), 0, Convert.ToSingle(angleReceiver.gamma-90));
+
+        // move forwards without leaning but speed up by leaning
+        Vector3 angles2 = new Vector3(Convert.ToSingle(angleReceiver.beta - 180), 0, 20 + Convert.ToSingle(angleReceiver.gamma - 90));
 
         //using default force mode - to not do this, look at the documentation for Rigidbody.AddForce
-        rb.AddForce(angles * speed);
+        rb.AddForce(angles2 * speed);
 
     }
 
