@@ -36,7 +36,6 @@ public class TestSocketIO : MonoBehaviour
 	private SocketIOComponent socket;
     private IDictionary<string, string> json_data = new Dictionary<string, string>();
 
-    public float alpha;
     public float beta;
     public float gamma;
 
@@ -68,7 +67,6 @@ public class TestSocketIO : MonoBehaviour
 
         json_data = e.data.ToDictionary();
 
-        alpha = float.Parse(json_data["alpha"]);
         beta = float.Parse(json_data["beta"]);
         gamma = float.Parse(json_data["gamma"]);
     }

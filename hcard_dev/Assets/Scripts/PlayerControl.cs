@@ -29,7 +29,7 @@ public class PlayerControl : MonoBehaviour
         Vector3 angles1 = new Vector3(Convert.ToSingle(angleReceiver.beta-180), 0, Convert.ToSingle(angleReceiver.gamma-90));
 
         // move forwards without leaning but speed up by leaning
-        Vector3 angles2 = new Vector3(Convert.ToSingle(angleReceiver.beta - 180), 0, 5 + Convert.ToSingle(angleReceiver.gamma - 90));
+        Vector3 angles2 = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, 15 + Convert.ToSingle(angleReceiver.gamma));
 
         //using default force mode - to not do this, look at the documentation for Rigidbody.AddForce
         rb.AddForce(angles2 * speed);

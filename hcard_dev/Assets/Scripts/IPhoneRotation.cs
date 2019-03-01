@@ -17,7 +17,7 @@ public class IPhoneRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rotation = Quaternion.Euler(angleReceiver.beta, angleReceiver.gamma, angleReceiver.alpha);
+        rotation = Quaternion.Euler(angleReceiver.beta, angleReceiver.gamma, 0);
         iphone.rotation = rotation;
     }
 }
