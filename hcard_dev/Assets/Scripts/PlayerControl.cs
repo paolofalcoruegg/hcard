@@ -8,6 +8,8 @@ public class PlayerControl : MonoBehaviour
 {
     // private = no access in controller (just in script), whereas public can be changed in controller
     public float speed;
+    public float baseSpeed;
+
     private TestSocketIO angleReceiver;
 
     // create variable to hold reference
@@ -29,7 +31,10 @@ public class PlayerControl : MonoBehaviour
         Vector3 angles1 = new Vector3(Convert.ToSingle(angleReceiver.beta-180), 0, Convert.ToSingle(angleReceiver.gamma-90));
 
         // move forwards without leaning but speed up by leaning
-        Vector3 angles2 = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, 15 + Convert.ToSingle(angleReceiver.gamma));
+        Vector3 angles2 = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, Convert.ToSingle(angleReceiver.gamma));
+
+        // Give it a baseSpeed towards the front
+        rb.velocity += new Vector3(0, 0, baseSpeed);
 
         //using default force mode - to not do this, look at the documentation for Rigidbody.AddForce
         rb.AddForce(angles2 * speed);

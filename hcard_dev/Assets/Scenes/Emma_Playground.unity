@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1122,12 +1122,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8374836493200083315, guid: 87f8ff63d15621148ad3712a8aba6d40,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 59380f38700b1bb45bd157c0c0759553,
-        type: 2}
     - target: {fileID: 8374836493200083318, guid: 87f8ff63d15621148ad3712a8aba6d40,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1178,6 +1172,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8374836493200083315, guid: 87f8ff63d15621148ad3712a8aba6d40,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 59380f38700b1bb45bd157c0c0759553,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f8ff63d15621148ad3712a8aba6d40, type: 3}
 --- !u!1001 &1678180221
@@ -1375,6 +1375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
+        type: 3}
+      propertyPath: baseSpeed
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82f4abc5f1907c84da0e81e6f1c3582d, type: 3}
