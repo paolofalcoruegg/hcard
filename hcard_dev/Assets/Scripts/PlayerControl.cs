@@ -10,10 +10,17 @@ public class PlayerControl : MonoBehaviour
     public float speed;
     public float baseSpeed;
 
+    public Text countText;
+    public Text winText;
+    public Text angleText;
+
     private TestSocketIO angleReceiver;
 
     // create variable to hold reference
     private Rigidbody rb;
+
+    private int count;
+    private float previousZ, previousX, angleX;
 
 
     //runs at first script run
@@ -22,6 +29,14 @@ public class PlayerControl : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         angleReceiver = GetComponent<TestSocketIO>();
 
+        count = 0;
+        SetCountText();
+
+        winText.text = "";
+
+        // initial transform to calculate angle of ball
+        previousX = transform.position.x;
+        previousZ = transform.position.z;
     }
 
     private void FixedUpdate() //called before performing any calculations
@@ -39,6 +54,9 @@ public class PlayerControl : MonoBehaviour
         //using default force mode - to not do this, look at the documentation for Rigidbody.AddForce
         rb.AddForce(angles2 * speed);
 
+        angleX = Mathf.Atan2(transform.position.z - previousZ, transform.position.x - previousX);
+        angleText.text = (angleX * 180 / Mathf.PI - 90).ToString();
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -47,10 +65,18 @@ public class PlayerControl : MonoBehaviour
         {
             //deactivate game object when the object we collided with is a pick up
             other.gameObject.SetActive(false);
-         
+            count += 1;
+            SetCountText();
         }
 
     }
 
-
+    void SetCountText ()
+    {
+        countText.text = "Count: " + count.ToString();
+        if (count >= 12)
+        {
+            winText.text = "You've fucking done it! Well done, biiitch xx";
+        }
+    }
 }
