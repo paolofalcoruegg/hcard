@@ -91,6 +91,6 @@ function newConnection(socket) {
     angles['beta'] = data['beta'];
     angles['gamma'] = data['gamma'];
 
-    console.log(angles);
+    // console.log(angles);
   }
 }
