@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class PlayerControl : MonoBehaviour
     private float previousZ, previousX, angleX;
 
 
+    // angles
+    public Vector3 angles;
+
     //runs at first script run
     void Start()
     {
@@ -37,22 +41,19 @@ public class PlayerControl : MonoBehaviour
         // initial transform to calculate angle of ball
         previousX = transform.position.x;
         previousZ = transform.position.z;
+
     }
 
     private void FixedUpdate() //called before performing any calculations
     {
-        
-        // have to lean forwards to move forwards
-        Vector3 angles1 = new Vector3(Convert.ToSingle(angleReceiver.beta-180), 0, Convert.ToSingle(angleReceiver.gamma-90));
-
         // move forwards without leaning but speed up by leaning
-        Vector3 angles2 = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, Convert.ToSingle(angleReceiver.gamma));
+        angles = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, Convert.ToSingle(angleReceiver.gamma));
 
         // Give it a baseSpeed towards the front
         rb.velocity += new Vector3(0, 0, baseSpeed);
 
         //using default force mode - to not do this, look at the documentation for Rigidbody.AddForce
-        rb.AddForce(angles2 * speed);
+        rb.AddForce(angles * speed);
 
         angleX = Mathf.Atan2(transform.position.z - previousZ, transform.position.x - previousX);
         angleText.text = (angleX * 180 / Mathf.PI - 90).ToString();
@@ -71,7 +72,7 @@ public class PlayerControl : MonoBehaviour
 
     }
 
-    void SetCountText ()
+    void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
         if (count >= 12)
