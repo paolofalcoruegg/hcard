@@ -50,10 +50,10 @@ public class PlayerControl : MonoBehaviour
         angles = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, Convert.ToSingle(angleReceiver.gamma));
 
         // Give it a baseSpeed towards the front
-        rb.velocity += new Vector3(0, 0, baseSpeed);
+        rb.velocity = new Vector3(0, 0, baseSpeed);
 
         //using default force mode - to not do this, look at the documentation for Rigidbody.AddForce
-        rb.AddForce(angles * speed);
+        rb.AddForce((angles * speed),ForceMode.VelocityChange);
 
         angleX = Mathf.Atan2(transform.position.z - previousZ, transform.position.x - previousX);
         angleText.text = (angleX * 180 / Mathf.PI - 90).ToString();
