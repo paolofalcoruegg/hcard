@@ -15,6 +15,8 @@ public class LapComplete : MonoBehaviour
 
     public GameObject LapTimeBox;
 
+    public GameManager gameManager;
+
     void OnTriggerEnter()
     {
 
@@ -44,6 +46,8 @@ public class LapComplete : MonoBehaviour
 
         StartLapTrig.SetActive(true);
         LapCompleteTrig.SetActive(false);
+
+        gameManager.CompleteLevel();
     }
 
 }
