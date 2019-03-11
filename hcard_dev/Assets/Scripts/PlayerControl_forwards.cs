@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 
-public class PlayerControl : MonoBehaviour
+public class PlayerControl_forwards : MonoBehaviour
 {
     // private = no access in controller (just in script), whereas public can be changed in controller
     public float speed;
@@ -47,14 +47,14 @@ public class PlayerControl : MonoBehaviour
     private void FixedUpdate() //called before performing any calculations
     {
 
-        // Moving sideways controls sideways motion
-        angles = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, 0);
+        // Moving frontways controls sideways motion
+        angles = new Vector3(Convert.ToSingle(angleReceiver.gamma), 0, 0);
 
         // Give it a baseSpeed towards the front
         rb.velocity = new Vector3(0, 0, baseSpeed);
 
         // Adding force depending on mapping and body angle
-        rb.AddForce(angles * speed,ForceMode.VelocityChange);
+        rb.AddForce(angles * speed, ForceMode.VelocityChange);
 
     }
 
