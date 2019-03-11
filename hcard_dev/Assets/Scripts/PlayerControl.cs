@@ -73,7 +73,7 @@ public class PlayerControl : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if (count >= 12)
+        if (count >= 100)
         {
             winText.text = "You've fucking done it! Well done, biiitch xx";
         }
