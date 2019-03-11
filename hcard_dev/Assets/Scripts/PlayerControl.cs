@@ -54,7 +54,7 @@ public class PlayerControl : MonoBehaviour
         rb.velocity = new Vector3(0, 0, baseSpeed);
 
         // Adding force depending on mapping and body angle
-        rb.AddForce(angles * speed,ForceMode.VelocityChange);
+        rb.AddForce(angles * speed/10,ForceMode.VelocityChange);
 
     }
 
@@ -78,4 +78,10 @@ public class PlayerControl : MonoBehaviour
             winText.text = "You've fucking done it! Well done, biiitch xx";
         }
     }
+
+    public void ChangeMapping(float atm)
+    {
+        FindObjectOfType<PlayerControl>().speed += atm;
+    }
+
 }

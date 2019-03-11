@@ -454,7 +454,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 645a9de5e8a6a1b41a4f78ffb6b6b71f, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 82f4abc5f1907c84da0e81e6f1c3582d, type: 3}
 --- !u!1001 &347586591
 PrefabInstance:
@@ -513,7 +514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 010d39cbd03ee4c99a746c1f8ecdc0d8, type: 3}
       propertyPath: url
-      value: ws://146.169.190.215:4567/socket.io/?EIO=4&transport=websocket
+      value: ws://146.169.174.198:4567/socket.io/?EIO=4&transport=websocket
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 010d39cbd03ee4c99a746c1f8ecdc0d8, type: 3}
@@ -523,6 +524,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 308267625}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &410569614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410569613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51699629920c8d2469656d8fba35e0f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.3
+  baseSpeed: 5
+  countText: {fileID: 0}
+  winText: {fileID: 0}
+  angleText: {fileID: 0}
+  angles: {x: 0, y: 0, z: 0}
 --- !u!114 &410569621
 MonoBehaviour:
   m_ObjectHideFlags: 0
