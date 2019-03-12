@@ -18,16 +18,22 @@ function setup() {
 
     pos = createVector(width / 2, height / 2);
 
+
+
     socket = io.connect(`http://${settings['wlan_ip']}:${settings['port']}`);
 }
 
 function draw() {
-    
     noStroke();
     background(0);
+    // x, y
+    fill(255, 255, 255, 255);
+    rect(0, windowHeight/2 - 5, windowWidth, 10)
+    rect(windowWidth/2 - 5, 0, 10, windowHeight);
+
     fill(204, 101, 192, 255);
-    ellipse(windowWidth*gamma/180+windowWidth/2, windowHeight*beta/180+windowWidth/2, 60, 60);
-  
+    ellipse(windowWidth*gamma/180+windowWidth/2, windowHeight*beta/180+windowHeight/2, 60, 60);
+
     var posData = {
         'beta': beta, // x
         'gamma': gamma, // y
