@@ -26,7 +26,7 @@ public class CSVWriter : MonoBehaviour
         // Clear the content of text file before loading data into it
         File.WriteAllText(path, String.Empty);
 
-        InvokeRepeating("WriteString", 0.5f, 0.5f);
+        InvokeRepeating("WriteString", 0.1f, 0.1f);
 
         timePassed = 0;
     }
@@ -44,7 +44,9 @@ public class CSVWriter : MonoBehaviour
         writer.WriteLine(
             Convert.ToSingle(timePassed).ToString("F3") + "," +
             Convert.ToSingle(angleReceiver.beta).ToString("F3") + "," +
-            Convert.ToSingle(angleReceiver.gamma).ToString("F3"));
+            Convert.ToSingle(angleReceiver.gamma).ToString("F3") + "," +
+            Convert.ToSingle(transform.position.x).ToString("F3") + "," +
+            Convert.ToSingle(transform.position.z).ToString("F3"));
 
         writer.Close();
     }
