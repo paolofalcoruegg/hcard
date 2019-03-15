@@ -11,7 +11,7 @@ public class CreditsFinish : MonoBehaviour
     }
     IEnumerator CreditEnd()
     {
-        yield return new WaitForSeconds(35);
+        yield return new WaitForSeconds(20);
         SceneManager.LoadScene(0);
     }
 }

@@ -574,7 +574,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.809423, y: -85}
+  m_AnchoredPosition: {x: -17.809423, y: -81}
   m_SizeDelta: {x: 555.5, y: 329.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1731191809
@@ -634,7 +634,7 @@ MonoBehaviour:
     Emma Lubel
 
 
-    Paolo
+    Paolo Ruegg
 
 '
 --- !u!222 &1731191810
