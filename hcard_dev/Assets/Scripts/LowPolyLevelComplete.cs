@@ -5,5 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LowPolyLevelComplete : MonoBehaviour
 {
-    public void LoadNextLevel() => SceneManager.LoadScene(sceneBuildIndex: SceneManager.GetActiveScene().buildIndex - 2);
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
