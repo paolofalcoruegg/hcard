@@ -5,16 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame()
+    public void PlayEasySpace()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void PlayGame2()
+    public void PlayEasyLowPoly()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
+    public void PlayMediumSpace()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
+    public void PlayHardSpace()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+    }
+
+    public void PlayMediumLowPoly()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+    }
+
+    public void PlayHardLowPoly()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+    }
     public void QuitGame()
     {
         Debug.Log("QUIT!");
