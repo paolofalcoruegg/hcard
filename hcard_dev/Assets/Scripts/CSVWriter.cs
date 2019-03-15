@@ -23,7 +23,6 @@ public class CSVWriter : MonoBehaviour
 
         // assign the file path the data will be written into
 
-        levelIndicator = "";
         path = "Data/user_data" + levelIndicator + ".txt";
 
 
