@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/5_SpaceEnvironmentReduced.unity
     guid: 9138f6f792233994fa5dcfc8b5f48a33
   - enabled: 1
+    path: Assets/Scenes/6_LowPolyLevel.unity
+    guid: 4314ef07dd02a0f4eaeb4462c9e9cf3d
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: bceb73f78d2c0a445a7ab30e0729962d
   m_configObjects: {}
