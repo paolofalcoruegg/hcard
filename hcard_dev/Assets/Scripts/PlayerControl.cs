@@ -11,16 +11,14 @@ public class PlayerControl : MonoBehaviour
     public float speed;
     public float baseSpeed;
 
-    public Text countText;
-    public Text winText;
-    public Text angleText;
+    public Text scoreText;
 
     private TestSocketIO angleReceiver;
 
     // create variable to hold reference
     private Rigidbody rb;
 
-    private int count;
+    private int score;
     private float previousZ, previousX, angleX;
 
 
@@ -33,10 +31,8 @@ public class PlayerControl : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         angleReceiver = GetComponent<TestSocketIO>();
 
-        count = 0;
+        score = 0;
         SetCountText();
-
-        winText.text = "";
 
         // initial transform to calculate angle of ball
         previousX = transform.position.x;
@@ -64,7 +60,7 @@ public class PlayerControl : MonoBehaviour
         {
             //deactivate game object when the object we collided with is a pick up
             other.gameObject.SetActive(false);
-            count += 1;
+            score += 25;
             SetCountText();
         }
 
@@ -72,11 +68,7 @@ public class PlayerControl : MonoBehaviour
 
     void SetCountText()
     {
-        countText.text = "Count: " + count.ToString();
-        if (count >= 100)
-        {
-            winText.text = "You've fucking done it! Well done, biiitch xx";
-        }
+        scoreText.text = "Score: " + score.ToString();
     }
 
     public void ChangeMapping(float atm)
