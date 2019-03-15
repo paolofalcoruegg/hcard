@@ -70,10 +70,4 @@ public class PlayerControl : MonoBehaviour
     {
         scoreText.text = "Score: " + score.ToString();
     }
-
-    public void ChangeMapping(float atm)
-    {
-        FindObjectOfType<PlayerControl>().speed += atm;
-    }
-
 }

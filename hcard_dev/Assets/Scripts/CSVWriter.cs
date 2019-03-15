@@ -13,6 +13,7 @@ public class CSVWriter : MonoBehaviour
     private string path;
     private TestSocketIO angleReceiver;
 
+    public string levelIndicator;
     public float timePassed;
 
     // Start is called before the first frame update
@@ -21,7 +22,10 @@ public class CSVWriter : MonoBehaviour
         angleReceiver = GetComponent<TestSocketIO>();
 
         // assign the file path the data will be written into
-        path = "Data/user_data.txt";
+
+        levelIndicator = "";
+        path = "Data/user_data" + levelIndicator + ".txt";
+
 
         // Clear the content of text file before loading data into it
         File.WriteAllText(path, String.Empty);
