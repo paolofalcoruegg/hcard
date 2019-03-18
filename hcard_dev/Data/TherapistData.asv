@@ -1,26 +1,43 @@
 
+% read data files
 user_data = csvread('user_data.txt');
 path_data = csvread('Path data - Sheet1.csv');
 
-time = user_data(1:end,1);
+%user variables
+timeuser = user_data(1:end,1);
 alpha = user_data(1:end,2);
 beta = user_data(1:end,3);
-xuser = user_data(1:end,4);
-yuser = user_data(1:end,5);
+yuser = user_data(1:end,4);
+xuser = user_data(1:end,5);
 
-figure
-subplot(3,1,1);
-plot(yuser,xuser)
-subplot(3,1,2);
-plot(time,alpha)
-subplot(3,1,3);
-plot(time,beta)
-
-max_angle_left = max(alpha);
-max_angle_right = min(alpha);
-max_angle_forward = max(beta);
-max_angle_backward = min(beta);
-
+%path variables
 ypath = path_data(1:end,3);
 xpath = path_data(1:end,2);
 timepath = path_data(1:end,1);
+
+%path function
+fitpath = fit(xpath,ypath,'linearinterp');
+
+x = 0:0.1:650;
+figure
+plot(x,fitpath(x));
+
+% Figure showing user path compared to ideal path, angles
+figure
+subplot(3,1,1);
+plot(xuser,yuser,xpath,ypath)
+subplot(3,1,2);
+plot(timeuser,alpha)
+subplot(3,1,3);
+plot(timeuser,beta)
+
+% calculate max angles
+max_angle_right = max(alpha);
+max_angle_left = min(alpha);
+max_angle_forward = max(beta);
+max_angle_backward = min(beta);
+
+deviation = yuser - fitpath(xuser);
+mean_dev
+
+
