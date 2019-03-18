@@ -12,14 +12,18 @@ public class CSVWriter : MonoBehaviour
     // initiate the path the data will be written into
     private string path;
     private TestSocketIO angleReceiver;
+    private PlayerControl playerControl;
 
     public string levelIndicator;
     public float timePassed;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         angleReceiver = GetComponent<TestSocketIO>();
+        playerControl = GetComponent<PlayerControl>();
 
         // assign the file path the data will be written into
 
@@ -49,7 +53,8 @@ public class CSVWriter : MonoBehaviour
             Convert.ToSingle(angleReceiver.beta).ToString("F3") + "," +
             Convert.ToSingle(angleReceiver.gamma).ToString("F3") + "," +
             Convert.ToSingle(transform.position.x).ToString("F3") + "," +
-            Convert.ToSingle(transform.position.z).ToString("F3"));
+            Convert.ToSingle(transform.position.z).ToString("F3") + "," +
+            Convert.ToSingle(playerControl.speed));
 
         writer.Close();
     }

@@ -13,6 +13,8 @@ public class PlayerControl : MonoBehaviour
 
     public Text scoreText;
 
+    public bool flipAxis;
+
     private TestSocketIO angleReceiver;
 
     // create variable to hold reference
@@ -43,8 +45,14 @@ public class PlayerControl : MonoBehaviour
     private void FixedUpdate() //called before performing any calculations
     {
 
-        // Moving sideways controls sideways motion
-        angles = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, 0);
+        if (flipAxis)
+        {
+            angles = new Vector3(Convert.ToSingle(angleReceiver.gamma), 0, 0);
+        }
+        else
+        {
+            angles = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, 0);
+        }
 
         // Give it a baseSpeed towards the front
         rb.velocity = new Vector3(0, 0, baseSpeed);
