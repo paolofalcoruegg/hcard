@@ -284,7 +284,8 @@ end
 % Calculate score
 deviation = abs(yuser - fitpath(xuser));
 mean_dev = mean(deviation);
-score = 5*(100 - mean_dev)/100;
+score = (100 - mean_dev^1.38);
+%1.38 chosen to give almost 0 for worst case
 
 right_score = (score_angle1r +score_angle2r +score_angle3r +score_angle4r)/4;
 left_score = (score_angle1l +score_angle2l +score_angle3l +score_angle4l)/4;
