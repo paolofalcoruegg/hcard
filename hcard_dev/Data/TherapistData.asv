@@ -1,6 +1,6 @@
 
 % read data files
-user_data = csvread('user_dataswiss.txt');
+user_data = csvread('user_dataspace.txt');
 path_data = csvread('Path data - Sheet1.csv');
 
 %user variables
@@ -232,19 +232,19 @@ if (diff_value == 2)
         if (10 < beta(i)) && ( beta(i) < 13)
             time_angle3f = time_angle3f + 0.1;
         end
-        if (14.5 < beta(i)) && ( beta(i) < 15.5)
+        if (13 < beta(i)) && ( beta(i) < 17)
             time_angle4f = time_angle4f + 0.1;
         end
-        if (-4.25 < beta(i)) && ( beta(i) < -3.25)
+        if (-7 < beta(i)) && ( beta(i) < -3)
             time_angle1b = time_angle1b + 0.1;
         end
-        if (-8 < beta(i)) && ( beta(i) < -7)
+        if (-10 < beta(i)) && ( beta(i) < -7)
             time_angle2b = time_angle2b + 0.1;
         end
-        if (-11.75 < beta(i)) && ( beta(i) < -10.75)
+        if (-13 < beta(i)) && ( beta(i) < -10)
             time_angle3b = time_angle3b + 0.1;
         end
-        if (-15.5 < beta(i)) && ( beta(i) < -14.5)
+        if (-17 < beta(i)) && ( beta(i) < -13)
             time_angle4b = time_angle4b + 0.1;
         end
      end
@@ -284,7 +284,8 @@ end
 % Calculate score
 deviation = abs(yuser - fitpath(xuser));
 mean_dev = mean(deviation);
-score = 5*(100 - mean_dev)/100;
+score = (100 - mean_dev^1.38);
+%1.38 chosen to give almost 0 for worst case
 
 right_score = (score_angle1r +score_angle2r +score_angle3r +score_angle4r)/4;
 left_score = (score_angle1l +score_angle2l +score_angle3l +score_angle4l)/4;
