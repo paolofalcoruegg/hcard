@@ -46,28 +46,28 @@ diff_value = user_data(1, 6);
 if (diff_value == 5)
     difficulty = 'Easy';
      for i=1:1283
-        if (1 < alpha(i)) && ( alpha(i) < 2)
+        if (1 < alpha(i)) && ( alpha(i) < 2.5)
             time_angle1r = time_angle1r + 0.1;
         end
-        if (2.5 < alpha(i)) && ( alpha(i) < 3.5)
+        if (2.5 < alpha(i)) && ( alpha(i) < 4)
             time_angle2r = time_angle2r + 0.1;
         end
-        if (4 < alpha(i)) && ( alpha(i) < 5)
+        if (4 < alpha(i)) && ( alpha(i) < 5.5)
             time_angle3r = time_angle3r + 0.1;
         end
-        if (5.5 < alpha(i)) && ( alpha(i) < 6.5)
+        if (5.5 < alpha(i)) && ( alpha(i) < 7)
             time_angle4r = time_angle4r + 0.1;
         end
-        if (-2 < alpha(i)) && ( alpha(i) < -1)
+        if (-2.5 < alpha(i)) && ( alpha(i) < -1)
             time_angle1l = time_angle1l + 0.1;
         end
-        if (-3.5 < alpha(i)) && ( alpha(i) < -2.5)
+        if (-4 < alpha(i)) && ( alpha(i) < -2.5)
             time_angle2l = time_angle2l + 0.1;
         end
-        if (-5 < alpha(i)) && ( alpha(i) < -4)
+        if (-5.5 < alpha(i)) && ( alpha(i) < -4)
             time_angle3l = time_angle3l + 0.1;
         end
-        if (-6.5 < alpha(i)) && ( alpha(i) < -5.5)
+        if (-7 < alpha(i)) && ( alpha(i) < -5.5)
             time_angle4l = time_angle4l + 0.1;
         end
      end
@@ -75,28 +75,28 @@ end
 if (diff_value == 3)
     difficulty = 'Medium';
     for i=1:1283
-        if (2 < alpha(i)) && ( alpha(i) < 3)
+        if (2 < alpha(i)) && ( alpha(i) < 4.5)
             time_angle1r = time_angle1r + 0.1;
         end
-        if (4.5 < alpha(i)) && ( alpha(i) < 5.5)
+        if (4.5 < alpha(i)) && ( alpha(i) < 7)
             time_angle2r = time_angle2r + 0.1;
         end
-        if (7 < alpha(i)) && ( alpha(i) < 8)
+        if (7 < alpha(i)) && ( alpha(i) < 9.5)
             time_angle3r = time_angle3r + 0.1;
         end
-        if (9.5 < alpha(i)) && ( alpha(i) < 10.5)
+        if (9.5 < alpha(i)) && ( alpha(i) < 11)
             time_angle4r = time_angle4r + 0.1;
         end
-        if (-3 < alpha(i)) && ( alpha(i) < -2)
+        if (-4.5 < alpha(i)) && ( alpha(i) < -2)
             time_angle1l = time_angle1l + 0.1;
         end
-        if (-5.5 < alpha(i)) && ( alpha(i) < -4.5)
+        if (-7 < alpha(i)) && ( alpha(i) < -4.5)
             time_angle2l = time_angle2l + 0.1;
         end
-        if (-8 < alpha(i)) && ( alpha(i) < -7)
+        if (-9.5 < alpha(i)) && ( alpha(i) < -7)
             time_angle3l = time_angle3l + 0.1;
         end
-        if (-10.5 < alpha(i)) && ( alpha(i) < -9.5)
+        if (-11 < alpha(i)) && ( alpha(i) < -9.5)
             time_angle4l = time_angle4l + 0.1;
         end
     end
@@ -104,28 +104,28 @@ end
 if (diff_value == 2)
     difficulty = 'Hard';
      for i=1:1283
-        if (3.25 < alpha(i)) && ( alpha(i) < 4.25)
+        if (3 < alpha(i)) && ( alpha(i) < 7)
             time_angle1r = time_angle1r + 0.1;
         end
-        if (7 < alpha(i)) && ( alpha(i) < 8)
+        if (7 < alpha(i)) && ( alpha(i) < 10)
             time_angle2r = time_angle2r + 0.1;
         end
-        if (10.75 < alpha(i)) && ( alpha(i) < 11.75)
+        if (10 < alpha(i)) && ( alpha(i) < 13)
             time_angle3r = time_angle3r + 0.1;
         end
-        if (14.5 < alpha(i)) && ( alpha(i) < 15.5)
+        if (13 < alpha(i)) && ( alpha(i) < 16)
             time_angle4r = time_angle4r + 0.1;
         end
-        if (-4.25 < alpha(i)) && ( alpha(i) < -3.25)
+        if (-7 < alpha(i)) && ( alpha(i) < -3)
             time_angle1l = time_angle1l + 0.1;
         end
-        if (-8 < alpha(i)) && ( alpha(i) < -7)
+        if (-10 < alpha(i)) && ( alpha(i) < -7)
             time_angle2l = time_angle2l + 0.1;
         end
-        if (-11.75 < alpha(i)) && ( alpha(i) < -10.75)
+        if (-13 < alpha(i)) && ( alpha(i) < -10)
             time_angle3l = time_angle3l + 0.1;
         end
-        if (-15.5 < alpha(i)) && ( alpha(i) < -14.5)
+        if (-16 < alpha(i)) && ( alpha(i) < -13)
             time_angle4l = time_angle4l + 0.1;
         end
      end
@@ -165,28 +165,28 @@ end
 if (diff_value == 5)
     difficulty = 'Easy';
      for i=1:1283
-        if (1 < beta(i)) && ( beta(i) < 2)
+        if (1 < beta(i)) && ( beta(i) < 2.5)
             time_angle1f = time_angle1f + 0.1;
         end
-        if (2.5 < beta(i)) && ( beta(i) < 3.5)
+        if (2.5 < beta(i)) && ( beta(i) < 4)
             time_angle2f = time_angle2f + 0.1;
         end
-        if (4 < beta(i)) && ( beta(i) < 5)
+        if (4 < beta(i)) && ( beta(i) < 5.5)
             time_angle3f = time_angle3f + 0.1;
         end
-        if (5.5 < beta(i)) && ( beta(i) < 6.5)
+        if (5.5 < beta(i)) && ( beta(i) < 7)
             time_angle4f = time_angle4f + 0.1;
         end
-        if (-2 < beta(i)) && ( beta(i) < -1)
+        if (-2.5 < beta(i)) && ( beta(i) < -1)
             time_angle1b = time_angle1b + 0.1;
         end
-        if (-3.5 < beta(i)) && ( beta(i) < -2.5)
+        if (-4 < beta(i)) && ( beta(i) < -2.5)
             time_angle2b = time_angle2b + 0.1;
         end
-        if (-5 < beta(i)) && ( beta(i) < -4)
+        if (-5.5 < beta(i)) && ( beta(i) < -4)
             time_angle3b = time_angle3b + 0.1;
         end
-        if (-6.5 < beta(i)) && ( beta(i) < -5.5)
+        if (-7 < beta(i)) && ( beta(i) < -5.5)
             time_angle4b = time_angle4b + 0.1;
         end
      end
@@ -194,28 +194,28 @@ end
 if (diff_value == 3)
     difficulty = 'Medium';
     for i=1:1283
-        if (2 < beta(i)) && ( beta(i) < 3)
+        if (2 < beta(i)) && ( beta(i) < 4.5)
             time_angle1f = time_angle1f + 0.1;
         end
-        if (4.5 < beta(i)) && ( beta(i) < 5.5)
+        if (4.5 < beta(i)) && ( beta(i) < 7)
             time_angle2f = time_angle2f + 0.1;
         end
-        if (7 < beta(i)) && ( beta(i) < 8)
+        if (7 < beta(i)) && ( beta(i) < 9.5)
             time_angle3f = time_angle3f + 0.1;
         end
-        if (9.5 < beta(i)) && ( beta(i) < 10.5)
+        if (9.5 < beta(i)) && ( beta(i) < 11)
             time_angle4f = time_angle4f + 0.1;
         end
-        if (-3 < beta(i)) && ( beta(i) < -2)
+        if (-4.5 < beta(i)) && ( beta(i) < -2)
             time_angle1b = time_angle1b + 0.1;
         end
-        if (-5.5 < beta(i)) && ( beta(i) < -4.5)
+        if (-7 < beta(i)) && ( beta(i) < -4.5)
             time_angle2b = time_angle2b + 0.1;
         end
-        if (-8 < beta(i)) && ( beta(i) < -7)
+        if (-9.5 < beta(i)) && ( beta(i) < -7)
             time_angle3b = time_angle3b + 0.1;
         end
-        if (-10.5 < beta(i)) && ( beta(i) < -9.5)
+        if (-11 < beta(i)) && ( beta(i) < -9.5)
             time_angle4b = time_angle4b + 0.1;
         end
     end
@@ -223,28 +223,28 @@ end
 if (diff_value == 2)
     difficulty = 'Hard';
      for i=1:1283
-        if (3.25 < beta(i)) && ( beta(i) < 4.25)
+        if (3 < beta(i)) && ( beta(i) < 7)
             time_angle1f = time_angle1f + 0.1;
         end
-        if (7 < beta(i)) && ( beta(i) < 8)
+        if (7 < beta(i)) && ( beta(i) < 10)
             time_angle2f = time_angle2f + 0.1;
         end
-        if (10.75 < beta(i)) && ( beta(i) < 11.75)
+        if (10 < beta(i)) && ( beta(i) < 13)
             time_angle3f = time_angle3f + 0.1;
         end
-        if (14.5 < beta(i)) && ( beta(i) < 15.5)
+        if (13 < beta(i)) && ( beta(i) < 17)
             time_angle4f = time_angle4f + 0.1;
         end
-        if (-4.25 < beta(i)) && ( beta(i) < -3.25)
+        if (-7 < beta(i)) && ( beta(i) < -3)
             time_angle1b = time_angle1b + 0.1;
         end
-        if (-8 < beta(i)) && ( beta(i) < -7)
+        if (-10 < beta(i)) && ( beta(i) < -7)
             time_angle2b = time_angle2b + 0.1;
         end
-        if (-11.75 < beta(i)) && ( beta(i) < -10.75)
+        if (-13 < beta(i)) && ( beta(i) < -10)
             time_angle3b = time_angle3b + 0.1;
         end
-        if (-15.5 < beta(i)) && ( beta(i) < -14.5)
+        if (-17 < beta(i)) && ( beta(i) < -13)
             time_angle4b = time_angle4b + 0.1;
         end
      end
