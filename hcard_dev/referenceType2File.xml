@@ -1,0 +1,2325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>a718c138b20419b499c3d92b17e6ff7a</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Asteroids Pack/Assets/Scripts/RandomRotator.cs</fileName>
+    <timeStamp>2019-03-01T13:06:39.8948888+00:00</timeStamp>
+    <typeFullName>
+      <string>RandomRotator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>646b5bc27a658f447b1d929fd5ffbd70</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.7921176+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.AAMode</string>
+      <string>UnityStandardAssets.ImageEffects.Antialiasing</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7fceaeb339b971b429c4cc600acabd13</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.7931393+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Bloom</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+LensFlareStyle</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+TweakMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+BloomScreenBlendMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+BloomQuality</string>
+      <string>UnityStandardAssets.ImageEffects.HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomScreenBlendMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>02536f33053638549ab5c50ff3ecc0de</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.7941123+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.LensflareStyle34</string>
+      <string>UnityStandardAssets.ImageEffects.TweakMode34</string>
+      <string>UnityStandardAssets.ImageEffects.HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomScreenBlendMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomAndFlares</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4975a6e437fc3b149a8cd508ce5bdd69</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.7961061+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized</string>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized+Resolution</string>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized+BlurType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>34382083ad114a07d000fbfb8d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.7971048+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Blur</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7fc6bde01469c7b4badee5362f191d96</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.7981009+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized</string>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized+BlurType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>97e9b95cf609d96409b6c40519432957</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8000953+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.CameraMotionBlur</string>
+      <string>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1fd999d1b2cf94a45a5b0a47ce074bef</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8010933+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionCurves</string>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionCurves+ColorCorrectionMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8cde8c0fd649d9b46bb403ba5e157391</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8020907+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionLookup</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea59781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8040848+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionRamp</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3309686a9fbbe6e42a182d5e0257704c</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8050822+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ContrastEnhance</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ec92b071d2d424aecb3e46f28eb63174</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8060805+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ContrastStretch</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d64b4f3a592f28b44bf19223ac8b6cd2</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8070769+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.CreaseShading</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bd70d448b18cfbc46af26466f752332c</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8090717+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField+BlurType</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField+BlurSampleCount</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83d8db0ec466c14429f58c68c16398a1</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8100697+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+Dof34QualitySetting</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+DofResolution</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+DofBlurriness</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+BokehDestination</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>730475ee64f9a894bbac0d9e6f22e813</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8120638+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.EdgeDetection</string>
+      <string>UnityStandardAssets.ImageEffects.EdgeDetection+EdgeDetectMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4739c22ef73ad62488fe344c8fe9addd</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8130608+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Fisheye</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>76b5ec6153a1d55438228df10fe66844</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8150556+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.GlobalFog</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>243a781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8160533+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Grayscale</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f6469eb0ad1119d6d00011d98d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8180487+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ImageEffectBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>89a037199d11087f1100e2b844295342</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.819046+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ImageEffects</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>478a2083ad114a07d000fbfb8d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8200437+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.MotionBlur</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9191284b058eef549b7108b5f04e1117</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8220372+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.NoiseAndGrain</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a88a26a276b4e47619ce2c5adad33fab</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8230352+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.NoiseAndScratches</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b6f4318ec6c2bf643a0f9edfeeaba0ec</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.82503+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.PostEffectsBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>50b03df8f04b5c441aaac5b7fccb4734</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8260264+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.PostEffectsHelper</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a20852ce049f64e4695a48b6a354be83</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8270241+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Quads</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6f19108706fdce9469603d07980eb8ad</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8280218+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenOverlay</string>
+      <string>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>75febd242c999f04d9654522a10c006b</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8300165+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b0923359e9e352a4b9b11c7b7161ad67</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8310136+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion</string>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion+SSAOSamples</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a07a781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8320106+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.SepiaTone</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>60e318a6043c1cb4a8ce1c8805bab930</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8330073+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.SunShafts</string>
+      <string>UnityStandardAssets.ImageEffects.SunShafts+SunShaftsResolution</string>
+      <string>UnityStandardAssets.ImageEffects.SunShafts+ShaftsScreenBlendMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a22b3a7095a744a428c134b5e26ad68e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8350024+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.TiltShift</string>
+      <string>UnityStandardAssets.ImageEffects.TiltShift+TiltShiftMode</string>
+      <string>UnityStandardAssets.ImageEffects.TiltShift+TiltShiftQuality</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e50e925fb93c78246bf995d9dc3a2330</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8359995+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping</string>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping+TonemapperType</string>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>18b91636de2ba3445913e4cf38528dc8</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8379958+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Triangles</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bdda781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8389932+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Twirl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dd6d4281e5d7cd44d8c6e38bc2c1b8d8</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8399899+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration</string>
+      <string>UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration+AberrationMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a94b781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs</fileName>
+    <timeStamp>2019-03-01T13:06:41.8419847+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Vortex</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a3e5f51e31f79c4fb340e92ffc286e8</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/SpaceSkies Free/Demo/Scripts/LookCamera.cs</fileName>
+    <timeStamp>2019-03-01T13:06:46.3661164+00:00</timeStamp>
+    <typeFullName>
+      <string>LookCamera</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dca6002b33ac5bc48b39588e222296fb</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/SpaceSkies Free/Demo/Scripts/SkyboxChanger.cs</fileName>
+    <timeStamp>2019-03-01T13:06:46.3671134+00:00</timeStamp>
+    <typeFullName>
+      <string>SkyboxChanger</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5d8238cc53530b64fbb7828c3d3bb591</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/2D/Scripts/Camera2DFollow.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.8469356+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets._2D.Camera2DFollow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a9dfad760b6e9455593192a6d869f7ed</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/2D/Scripts/CameraFollow.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.8489304+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets._2D.CameraFollow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c3d7b34a3bb2d4e4b926e7e729d3d410</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/2D/Scripts/Platformer2DUserControl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.8579064+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets._2D.Platformer2DUserControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d08f91df3bd212f429df17f53ce2f364</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.8589035+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets._2D.PlatformerCharacter2D</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e053b0a94752146e79954ce4df1b5565</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/2D/Scripts/Restarter.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.8599005+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets._2D.Restarter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>89a534d869bfccd49bebf7cb6fb244b6</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9537653+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.AbstractTargetFollower</string>
+      <string>UnityStandardAssets.Cameras.AbstractTargetFollower+UpdateType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a8d3968294210ba4a9d2bb96dfa74a16</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/AutoCam.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9547636+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.AutoCam</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e44af8091779fcb40801d5b284353dbe</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/FreeLookCam.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9667318+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.FreeLookCam</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d947636a9390f6a46a121124154e6e3f</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/HandHeldCam.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9677362+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.HandHeldCam</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f2ec2b96de5640e42a622fc3064f1c80</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/LookatTarget.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9687259+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.LookatTarget</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58cb183e16853564e9ed457f8a296db1</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9697236+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.PivotBasedCameraRig</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>94b04ec3bda6b7747aa53936ef3b0ae2</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.970721+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.ProtectCameraFromWallClip</string>
+      <string>UnityStandardAssets.Cameras.ProtectCameraFromWallClip+RayHitComparer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a62942d9af3f36d448094c6ed1f214dd</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9727401+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Cameras.TargetFieldOfView</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>05ec5cf00ca181d45a42ba1870e148c3</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9966796+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.FirstPersonController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83c81407209f85e4c87c0cda8b32868e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs</fileName>
+    <timeStamp>2019-03-01T13:06:50.9976478+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.HeadBob</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>37e60a97f2c87ae41b6cdc1055d78cb9</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.0036334+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.MouseLook</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>81c9795a96c094f4cbde4d65546aa9b2</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.0046304+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController</string>
+      <string>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController+MovementSettings</string>
+      <string>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController+AdvancedSettings</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e004fefca5c7ba44d9c5ffd46fdee2ed</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/RollerBall/Scripts/Ball.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.026572+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Ball.Ball</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>daa7e0829bc72c94babd728cc0466196</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.0275694+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Ball.BallUserControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8c5335f0882fe4d478883cc8c58ce906</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.1731795+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.ThirdPerson.AICharacterControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ce7a80d520cacc042b5fe14f373d8173</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.1801884+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>521b611700410be45810047f0a74e899</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.1811585+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ab98b66288df7b4fa182075f2f12bd6</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.2978769+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.AxisTouchButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>85bf3be603548374ca46f521a3aa7fda</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3128639+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.ButtonHandler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6ac1ce5a5adfd9f46adbf5b6f752a47c</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3138343+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager</string>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager+ActiveInputMethod</string>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager+VirtualAxis</string>
+      <string>UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager+VirtualButton</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7d3269566d48b8447bb48d2259e28f8b</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3148317+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>00c3c865782347f41b6358d9fba14b48</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.315829+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.Joystick</string>
+      <string>UnityStandardAssets.CrossPlatformInput.Joystick+AxisOption</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>71398ce7fbc3a5b4fa50b50bd54317a7</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3168264+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.MobileControlRig</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5c2d84226fbbaf94e9c1451f1c39b06a</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3319817+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.TiltInput</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TiltInput+AxisOptions</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TiltInput+AxisMapping</string>
+      <string>UnityStandardAssets.CrossPlatformInput.Inspector.TiltInputAxisStylePropertyDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1caf40fc8bebb6b43b2550c05ca791d6</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3340057+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.TouchPad</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TouchPad+AxisOption</string>
+      <string>UnityStandardAssets.CrossPlatformInput.TouchPad+ControlStyle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0f57aeb1b8dce3342bea5c28ac17db24</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3499338+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.VirtualInput</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9703d53e47195aa4190acd11369ccd1b</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3188218+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9961032f4f02c4f41997c3ea399d2f22</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.3309844+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>db7667203062c644ea1877077e30ebd6</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.4337809+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1dfa22e5547fb4a4585ba225887d89dd</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.4538153+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.GerstnerDisplaceEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ff3b0e14a61014f50be83e1a18c6d43e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.4689062+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.PlanarReflectionEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33f51eb21122c4ca6a199d561065ae30</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.4699049+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.SpecularLightingEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c2c627f6fe3945b39581fc103d32251</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.4718996+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.WaterBaseEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f67f2bac30f824d4f8270bb8bb0779df</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs</fileName>
+    <timeStamp>2019-03-01T13:06:51.472897+00:00</timeStamp>
+    <typeFullName>
+      <string>WaterEditorUtility</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c62b7d87755b447919138e67f8e22e0c</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/Displace.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.3434687+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.Displace</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>42e7f46d0e5a84171a3909479c1646ba</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.3444661+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.GerstnerDisplace</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>951d74f7d57bed84cb623c62436bd064</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.3484556+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.MeshContainer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4185bc77c7194462ca3b1097ef4a5de0</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.349452+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.PlanarReflection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>de2ab2b9ac93bb544b9552e49030371b</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.35045+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.SpecularLighting</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a3d3ef1a5bbfb4e0a910fbbe5830b1f9</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/Water.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.3524451+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.Water</string>
+      <string>UnityStandardAssets.Water.Water+WaterMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a1da353243062479a9b31c85074a796b</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.3534415+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.WaterQuality</string>
+      <string>UnityStandardAssets.Water.WaterBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2a91e8dd37cdd41efb4859b65aced7a2</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.3544392+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.WaterTile</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d2f50a8e0bb841a5aaa90ae55db8849</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.2746522+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Water.WaterBasic</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5d44a238286f6904198ab78e914c229d</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4721261+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.AfterburnerPhysicsForce</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>009fbf49e77db344db366a646868e02d</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4741189+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.ExplosionFireAndDebris</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0ac1691131a8c844dafe8b6ace6a172a</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4751173+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.ExplosionPhysicsForce</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>433e9c8d0293ac4429eaf19bff2b58cf</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/Explosive.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4761149+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.Explosive</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>13e3e45088e68834999c82ca6f025949</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4771123+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.ExtinguishableParticleSystem</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>723274b822865ed4d9ed2a504c0ca79d</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/FireLight.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4791071+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.FireLight</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>915950f1f73ea9e429d92b7226238623</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/Hose.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4801288+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.Hose</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>039587c051912eb4ead9e58344c5f3ce</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4811012+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.ParticleSystemMultiplier</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4414ab7cd3d674b449d233db0d583605</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4821258+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.SmokeParticles</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2d79772cda0b4b6409070163fcab05da</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.4840936+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Effects.WaterHoseParticles</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c8634e062924929664361c08745211fb</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/ActivateTrigger.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6237195+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.ActivateTrigger</string>
+      <string>UnityStandardAssets.Utility.ActivateTrigger+Mode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>971f44ba24a74294294daed00507d80e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/AlphaButtonClickMask.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6257137+00:00</timeStamp>
+    <typeFullName>
+      <string>AlphaButtonClickMask</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c4978ff6447f9040b84acc89b0bbdc8</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/AutoMobileShaderSwitch.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.626712+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.AutoMobileShaderSwitch</string>
+      <string>UnityStandardAssets.Utility.AutoMobileShaderSwitch+ReplacementDefinition</string>
+      <string>UnityStandardAssets.Utility.AutoMobileShaderSwitch+ReplacementList</string>
+      <string>UnityStandardAssets.Utility.Inspector.ReplacementListDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a1347817507220a4384f3ff6f7c24546</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/AutoMoveAndRotate.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6277097+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.AutoMoveAndRotate</string>
+      <string>UnityStandardAssets.Utility.AutoMoveAndRotate+Vector3andSpace</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d1e2e7a54dcc8694ab1eca46d072f264</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/CameraRefocus.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6287058+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.CameraRefocus</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>492f54f4accf00440828ffcb9e4fcc19</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/CurveControlledBob.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6297028+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.CurveControlledBob</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58650e15a2607e44daa0f150e0061d89</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/DragRigidbody.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6316979+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.DragRigidbody</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8566902b50d5bfb4fb7f8b89f9cdbe8b</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/DynamicShadowSettings.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.632695+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.DynamicShadowSettings</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c0578910bbe00d43919a92c7b9893fe</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/EventSystemChecker.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6336933+00:00</timeStamp>
+    <typeFullName>
+      <string>EventSystemChecker</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>246cc59c7a84ea44f87f6b70acfe30c5</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/FollowTarget.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6376818+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.FollowTarget</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9b886447cba80f74e820adb3c9e70c76</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/ForcedReset.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6386795+00:00</timeStamp>
+    <typeFullName>
+      <string>ForcedReset</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6045a93fb05b9c74884821030da2c46c</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/FOVKick.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6356874+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.FOVKick</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>22bbf57ec543cee42a5aa0ec2dd9e457</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/FPSCounter.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6366848+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.FPSCounter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c1bbfafbde15c854681023b9e01e12dd</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/LerpControlledBob.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6416992+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.LerpControlledBob</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>643c971818f68d3439e84b5d8bdafe07</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/ObjectResetter.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6426697+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.ObjectResetter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>29014cd42b6d273408e0ceefd336c0b3</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/ParticleSystemDestroyer.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6446647+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.ParticleSystemDestroyer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b27507c5d0efbbd47ac8c1de9a1a0a35</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/PlatformSpecificContent.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6456858+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.PlatformSpecificContent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>69b69a5b0e0a85b4aa97a7edc40c37d1</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/SimpleActivatorMenu.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6486542+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.SimpleActivatorMenu</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cadd54e4832aeef4b9359f44cbe335cd</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/SimpleMouseRotator.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6496506+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.SimpleMouseRotator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f76806479d916a64aa03f8e3eba7912f</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/SmoothFollow.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6516447+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.SmoothFollow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3a7cedf246fca744f90cbdc9dbe41166</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/TimedObjectActivator.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6526418+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator</string>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator+Action</string>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator+Entry</string>
+      <string>UnityStandardAssets.Utility.TimedObjectActivator+Entries</string>
+      <string>UnityStandardAssets.Utility.Inspector.EntriesDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>37fac21d1f093d344816942d1abce94e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/TimedObjectDestructor.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6576299+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.TimedObjectDestructor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>70852dc981465ea48bb527b9e33a87fd</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/WaypointCircuit.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6586267+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.WaypointCircuit</string>
+      <string>UnityStandardAssets.Utility.WaypointCircuit+WaypointList</string>
+      <string>UnityStandardAssets.Utility.WaypointCircuit+RoutePoint</string>
+      <string>UnityStandardAssets.Utility.Inspector.WaypointListDrawer</string>
+      <string>UnityStandardAssets.Utility.Inspector.WaypointListDrawer+TransformNameComparer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c5cb22d331ef7d64796f917c6a455a32</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Utility/WaypointProgressTracker.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.6596244+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Utility.WaypointProgressTracker</string>
+      <string>UnityStandardAssets.Utility.WaypointProgressTracker+ProgressStyle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6f947e56d54f4274896478766fef616c</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.7573619+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAiControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>66329fe4ad8cd59478fffdc10131da1c</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.7583602+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAudio</string>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAudio+AdvancedSetttings</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>235a6615124795442b98c1f03500003e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.7613523+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1ee34fdb2d383a84e9ef60c30fc2778e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.760355+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator</string>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator+ControlSurface</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fb9e837aae6395d48b1182bee201f814</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.7623491+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b297a60c0ddf0ee4dabefaf158fb097d</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.7633711+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b821cfe117414d14ea5ad71c5b3c503f</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.7643429+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl4Axis</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1b878b2bd27dca747855179c7ca76010</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.7663389+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.JetParticleEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bf6c56c7f8c75ca4c99450be5aca5ace</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs</fileName>
+    <timeStamp>2019-03-01T13:06:53.768333+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Aeroplane.LandingGear</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fffafd711dc1dbc478a49705cfe1ce3d</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0735172+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.BrakeLight</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d963df58504b69045b8d0d746ba6f777</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0745146+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.CarAIControl</string>
+      <string>UnityStandardAssets.Vehicles.Car.CarAIControl+BrakeCondition</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>20fa55eb64c5cea4aa3c71ae19c434bf</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0775067+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.CarAudio</string>
+      <string>UnityStandardAssets.Vehicles.Car.CarAudio+EngineAudioOptions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3ea65b38d485c374caa584a03f1de571</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/CarController.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0785034+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.CarDriveType</string>
+      <string>UnityStandardAssets.Vehicles.Car.SpeedType</string>
+      <string>UnityStandardAssets.Vehicles.Car.CarController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9db865986f75ee44eba89ace4646af65</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0795319+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.CarSelfRighting</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>96468c245ae8e0d4f8f1c7a7b8b0542e</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0804979+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.CarUserControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>459cec5b068041e44a60a6e3b6abb0eb</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0824926+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.Mudguard</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ce3a3a1349a5774b94761844e652a65</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0835169+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.SkidTrail</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ec1e45165d1f2544bff59f5a80db8ab</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/Suspension.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.084488+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.Suspension</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c62479c3465024b48b42983b1b2eeaaf</guid>
+    <fileName>Assets/CAD/2_SpaceEnvironment/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs</fileName>
+    <timeStamp>2019-03-01T13:06:54.0854844+00:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.Vehicles.Car.WheelEffects</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ce6b4a87f12d07c4da16863c8bf985e5</guid>
+    <fileName>Assets/CAD/Low Poly Modular Terrain Pack/Bonus_Assets/Scripts/ModularTerrainCameraControl.cs</fileName>
+    <timeStamp>2018-02-16T11:08:48+00:00</timeStamp>
+    <typeFullName>
+      <string>ModularTerrainCameraControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b4416e7ca4f86ea4f9dcc5c5c9af3b5e</guid>
+    <fileName>Assets/CAD/Low Poly Modular Terrain Pack/Bonus_Assets/Scripts/ModularTerrainCloudsControl.cs</fileName>
+    <timeStamp>2018-02-16T11:08:48+00:00</timeStamp>
+    <typeFullName>
+      <string>ModularTerrainCloudsControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f8186cf8a5af960498b7d95249d9a7b4</guid>
+    <fileName>Assets/CAD/Low Poly Modular Terrain Pack/Bonus_Assets/Scripts/ModularTerrainSunControl.cs</fileName>
+    <timeStamp>2018-02-16T11:08:48+00:00</timeStamp>
+    <typeFullName>
+      <string>ModularTerrainSunControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T18:51:26+00:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>edcf6d73154737f4aa2e4a58177344f1</guid>
+    <fileName>Assets/Scripts/CameraControl.cs</fileName>
+    <timeStamp>2019-03-04T14:35:33.1286518+00:00</timeStamp>
+    <typeFullName>
+      <string>CameraControl</string>
+      <string>CameraControl2</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b6e1229cab3be2f44b7af773f2dc0119</guid>
+    <fileName>Assets/Scripts/CameraControl2.cs</fileName>
+    <timeStamp>2019-03-06T20:17:13.217444+00:00</timeStamp>
+    <typeFullName>
+      <string>CameraControl2</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>26470a4315283fb43a8c7a4c5e0a121a</guid>
+    <fileName>Assets/Scripts/CameraStable.cs</fileName>
+    <timeStamp>2019-03-05T10:14:45.6895589+00:00</timeStamp>
+    <typeFullName>
+      <string>CameraStable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0642c805b286bc44d82b6eddcd11b4f8</guid>
+    <fileName>Assets/Scripts/CreditsFinish.cs</fileName>
+    <timeStamp>2019-03-18T13:21:13.3466099+00:00</timeStamp>
+    <typeFullName>
+      <string>CreditsFinish</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3ec6e774700a341b18aeac0d9ab07b90</guid>
+    <fileName>Assets/Scripts/CSVWriter.cs</fileName>
+    <timeStamp>2019-03-18T13:41:49.2340642+00:00</timeStamp>
+    <typeFullName>
+      <string>CSVWriter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b5558ef8e8777e84fb1e49484ed8d4a1</guid>
+    <fileName>Assets/Scripts/GameManager.cs</fileName>
+    <timeStamp>2019-03-11T13:16:01.9658259+00:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>175955fc0119f3c4883973802bbba420</guid>
+    <fileName>Assets/Scripts/IPhoneRotation.cs</fileName>
+    <timeStamp>2019-03-01T13:06:44.1837583+00:00</timeStamp>
+    <typeFullName>
+      <string>IPhoneRotation</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d060aa9915a7f474c9c829e17d5cdfd9</guid>
+    <fileName>Assets/Scripts/KeyboardControl.cs</fileName>
+    <timeStamp>2019-03-08T12:46:55.7010793+00:00</timeStamp>
+    <typeFullName>
+      <string>KeyboardControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>acafdd06b9479db498b6894b187d262e</guid>
+    <fileName>Assets/Scripts/LapComplete.cs</fileName>
+    <timeStamp>2019-03-18T13:21:13.3505981+00:00</timeStamp>
+    <typeFullName>
+      <string>LapComplete</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5f84309cef0e0e84c802bdfdfce85a51</guid>
+    <fileName>Assets/Scripts/LapTimeManager.cs</fileName>
+    <timeStamp>2019-03-08T12:46:55.7041041+00:00</timeStamp>
+    <typeFullName>
+      <string>LapTimeManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c01bd43c2fb341e4680c738b3a2bffb6</guid>
+    <fileName>Assets/Scripts/LevelComplete.cs</fileName>
+    <timeStamp>2019-03-18T13:21:13.3535912+00:00</timeStamp>
+    <typeFullName>
+      <string>LevelComplete</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>67e26fffe7576744da720eb48a1a2bbb</guid>
+    <fileName>Assets/Scripts/LowPolyLevelComplete.cs</fileName>
+    <timeStamp>2019-03-18T13:21:13.3565836+00:00</timeStamp>
+    <typeFullName>
+      <string>LowPolyLevelComplete</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b3a8fa924c0946145a975140dbba8cb9</guid>
+    <fileName>Assets/Scripts/MainMenu.cs</fileName>
+    <timeStamp>2019-03-18T14:57:29.1692519+00:00</timeStamp>
+    <typeFullName>
+      <string>MainMenu</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c3bd5d9927a686468ee5ddb4a9cab41</guid>
+    <fileName>Assets/Scripts/Move.cs</fileName>
+    <timeStamp>2019-03-04T12:57:42.1753275+00:00</timeStamp>
+    <typeFullName>
+      <string>Move</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>36fb0c0b53f655d4c9c440859005038b</guid>
+    <fileName>Assets/Scripts/PlayerControl.cs</fileName>
+    <timeStamp>2019-03-18T13:40:24.9618781+00:00</timeStamp>
+    <typeFullName>
+      <string>PlayerControl</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>de9564267ff9b9a4796202c0b93330b2</guid>
+    <fileName>Assets/Scripts/Rotation_pickup.cs</fileName>
+    <timeStamp>2019-03-01T13:06:44.1887449+00:00</timeStamp>
+    <typeFullName>
+      <string>Rotation_pickup</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>70d8cb748c0f59042a5e923682ce1fb2</guid>
+    <fileName>Assets/Scripts/StartingPointTrigger.cs</fileName>
+    <timeStamp>2019-03-08T12:46:55.7060661+00:00</timeStamp>
+    <typeFullName>
+      <string>StartingPointTrigger</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>87a91122ae6240e4396c25fa94d9ad36</guid>
+    <fileName>Assets/Scripts/VolumeValueChange.cs</fileName>
+    <timeStamp>2019-03-18T13:21:13.3645613+00:00</timeStamp>
+    <typeFullName>
+      <string>VolumeValueChange</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eeba495d221e843f3838f785f3e1e419</guid>
+    <fileName>Assets/SocketIO/JSONObject/JSONObject.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7604215+00:00</timeStamp>
+    <typeFullName>
+      <string>JSONObject</string>
+      <string>JSONObject+Type</string>
+      <string>JSONObject+AddJSONConents</string>
+      <string>JSONObject+FieldNotFound</string>
+      <string>JSONObject+GetFieldResponse</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58ef13267807449f085b6f8ac66f3b30</guid>
+    <fileName>Assets/SocketIO/JSONObject/JSONTemplates.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7614189+00:00</timeStamp>
+    <typeFullName>
+      <string>JSONTemplates</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>82f5403151f5a4135b184d1fdf8e2d7e</guid>
+    <fileName>Assets/SocketIO/JSONObject/VectorTemplates.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7634137+00:00</timeStamp>
+    <typeFullName>
+      <string>JSONTemplates</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9eed650df23fe4f118b3ce9004111650</guid>
+    <fileName>Assets/SocketIO/JSONObject/Editor/JSONChecker.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7594242+00:00</timeStamp>
+    <typeFullName>
+      <string>JSONChecker</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6fa9179af012046faad73ac18c415335</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/Ack.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7713923+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.Ack</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c866e085c81854a12be82a44dc4166ad</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/Decoder.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7733868+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.Decoder</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d7740b68868194e789ed20c53019c622</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/Encoder.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7743841+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.Encoder</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4188e69e5ebff473a882031651f196d0</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/EnginePacketType.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7753815+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.EnginePacketType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2b6adf79681b140779f21a7ebecde17f</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/Packet.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7763789+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.Packet</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>af6cc409b9f7f42198b3270ffcaeed13</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/Parser.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7773762+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.Parser</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>961346d7e16a445ff93777573e78efd6</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs</fileName>
+    <timeStamp>2019-02-14T14:07:02.3468059+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.SocketIOComponent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0478da7272a8446dabf31efa772affad</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/SocketIOEvent.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7803687+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.SocketIOEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1a922e9bb9b544eb7b91b92fde935827</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/SocketIOException.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7813664+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.SocketIOException</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d386b9308e01f43a4a95dad054eee941</guid>
+    <fileName>Assets/SocketIO/Scripts/SocketIO/SocketPacketType.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7823631+00:00</timeStamp>
+    <typeFullName>
+      <string>SocketIO.SocketPacketType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9484cf1f87e894773ab4d8564652833d</guid>
+    <fileName>Assets/SocketIO/Scripts/Test/TestSocketIO.cs</fileName>
+    <timeStamp>2019-03-01T13:06:44.7791655+00:00</timeStamp>
+    <typeFullName>
+      <string>TestSocketIO</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1521934461328a04e98f127fd326e0be</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/AssemblyInfo.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7893441+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3fcb2fa3f551e6a4ba6dd3f7f3d319a4</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/ByteOrder.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7913388+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.ByteOrder</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a84cd752ba6c7414babf89c045c59704</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/CloseEventArgs.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7923362+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.CloseEventArgs</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>22af06d118f46d441bca7d17c4fdbc41</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/CloseStatusCode.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7933336+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.CloseStatusCode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>990ecb6d612370f408def5e017442d1f</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/CompressionMethod.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7943303+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.CompressionMethod</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3215f6caf074b5c4595d5ac0d352391f</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/ErrorEventArgs.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7963257+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.ErrorEventArgs</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>144897afaafa3cc4a98db7590f012339</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Ext.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7973228+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Ext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5116139d728d9da4587f86e48e0bcf53</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Fin.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.7983201+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Fin</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fe5b43f99c9141d4e99bfad6c0359e7a</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/HandshakeBase.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8003149+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.HandshakeBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b2bf9efaee14d414eb4c6a81cbdb1b2a</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/HandshakeRequest.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8013123+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.HandshakeRequest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d6cb91ebc2d29fa4fae26c77b016a491</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/HandshakeResponse.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8023096+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.HandshakeResponse</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8635c86a5edac7e4aa95d5d71571206c</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/LogData.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.803307+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.LogData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8b9b20c2797001e4896a1d5b84dcafd3</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Logger.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8062988+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Logger</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>27c64de5c5518d44c8769f8cc754fc94</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/LogLevel.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8053014+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.LogLevel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e9b4485e7626b594bafabc101905288a</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Mask.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8072962+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Mask</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7206e89bff762404ea8667aa83a42f52</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/MessageEventArgs.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8082936+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.MessageEventArgs</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>08116a1f4132d8d4e828f5348e931f30</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Opcode.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8641442+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Opcode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ba1c73f5c54ab534e94cb406f218be74</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/PayloadData.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8651416+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.PayloadData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c96f786bb0a34043b18bb4f8110cff9</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Rsv.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.866139+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Rsv</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7f809565376eb364d95c7dac01f25a12</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/WebSocket.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8681337+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.WebSocket</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>144bc914c9257e54b99ea77e6f1714c8</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/WebSocketException.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8691311+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.WebSocketException</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0508f37c785f68b4ebd94c3469b06ff3</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/WebSocketFrame.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8701282+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.WebSocketFrame</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>223ae24f299634d45af9039f24d5b03c</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/WebSocketState.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8711255+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.WebSocketState</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>67d631278ca52114f86d5b8b9930a34e</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/WebSocketStream.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8721229+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.WebSocketStream</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>910cdcca401a9924697b5a4caa654421</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/AuthenticationBase.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8102883+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.AuthenticationBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>02402f9bf7e946a4fa6749872bdd33d0</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/AuthenticationChallenge.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8112857+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.AuthenticationChallenge</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>156616d94d5d5ee4bb1788faf05804ef</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/AuthenticationResponse.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8132801+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.AuthenticationResponse</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>176175dab868d194291cd7370a980e76</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/AuthenticationSchemes.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8142775+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.AuthenticationSchemes</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>024d2731b29683144af3be58152d7e95</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/Chunk.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8152749+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.Chunk</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cc6a5a78a833514469846f16f1e26749</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/ChunkedRequestStream.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.818267+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.ChunkedRequestStream</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3258eeefc74d97b4d91d81fa3c883e7c</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/ChunkStream.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8162722+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.ChunkStream</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>daebe88ca64ea0146890c1cb8eb8e27f</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/Cookie.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8192643+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.Cookie</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1de67737c8552804583f8eafee33c4e0</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/CookieCollection.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8202617+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.CookieCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d31f64ba18153d640928c6efbe14570b</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/CookieException.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8212591+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.CookieException</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a97d8730eff548644883a34cc4eac68d</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/EndPointListener.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8232535+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.EndPointListener</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2a7c160bcf87fca48a3f481f4615ea53</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/EndPointManager.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8242509+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.EndPointManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4c26c419a36603d438160d63c60759ad</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpBasicIdentity.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8252483+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpBasicIdentity</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b74ef60f30bf36d4f9f65782d8334903</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpConnection.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8262456+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpConnection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4f8937a933f76e347ae4a12fc1bbd307</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpDigestIdentity.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8282401+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpDigestIdentity</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6357da8a4644b7240b5af4214a8ae2d4</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpHeaderInfo.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8292374+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpHeaderInfo</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1b01082e447b0084cbdad3796343c597</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpHeaderType.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8302348+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpHeaderType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4a424a80e4de6074290037399bfb50ef</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpListener.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8312325+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpListener</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6590397730b7c564a91f42ff33fc9ea6</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpListenerContext.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8332269+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpListenerContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ac801e71f1eef1149b88beeb1941495f</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpListenerException.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8342243+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpListenerException</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8f7886e9bea6f624889aafd692f585a5</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpListenerPrefixCollection.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8352217+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpListenerPrefixCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0558474268fcfc1468cd06f7474139e2</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpListenerRequest.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8362191+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpListenerRequest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2f651119f4eb5c5409133c5af2f88ee9</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpListenerResponse.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8372164+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpListenerResponse</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c2cf2595f60c2b248a31746b13f52815</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpStatusCode.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8392109+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpStatusCode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b58ef061e9d1d524c855bcbe20e4e2cd</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpStreamAsyncResult.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8402082+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpStreamAsyncResult</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>57be9c00db84b3e46b7aef54ab3d8ea9</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpUtility.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8412056+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpUtility</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d85bfed4e6c625e4897ed6d6c948a5e0</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/HttpVersion.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8432004+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.HttpVersion</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>73a65f8c9aeba4d48b323c877677c0dd</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/InputChunkState.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8441977+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.InputChunkState</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2fc14597a95d5d3489fc8652e6aa12cc</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/InputState.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8451948+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.InputState</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f26b5cafcf922bf409ec8509a68895a4</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/LineState.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8461922+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.LineState</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e774199d106829e4882dd9cd4606900f</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/ListenerAsyncResult.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8471895+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.ListenerAsyncResult</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e7ba3d09617a06746ae4f00db5cc7e95</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/ListenerPrefix.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8491843+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.ListenerPrefix</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d072ecd203a1aef479aea006752b87ca</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/NetworkCredential.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8501817+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.NetworkCredential</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5f869b9a24c9507449fd4c9212e6fbe3</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/QueryStringCollection.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.851179+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.QueryStringCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0305b53a1181299409eba30b39680acd</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/ReadBufferState.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8521764+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.ReadBufferState</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2dc6edc6aff89984592d3bb9f6d3a77f</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/RequestStream.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8541708+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.RequestStream</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>255a052cd2e786d46af71dc6682ee21f</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/ResponseStream.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8551688+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.ResponseStream</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>853e55b214b4f6f4fae0cc6424ec0251</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/WebHeaderCollection.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8581603+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.WebHeaderCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a77656427ba58c34baaabdfe963157e8</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/Security/SslStream.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.857163+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.Security.SslStream</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d6d636d72962f5d44aef6cebbf7e0e7b</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/WebSockets/HttpListenerWebSocketContext.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8601551+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.WebSockets.HttpListenerWebSocketContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ddb47cc1d0a35ee4494d873de965236e</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/WebSockets/TcpListenerWebSocketContext.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8611521+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.WebSockets.TcpListenerWebSocketContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d709cd1c9245ca34991b0ae08d86c115</guid>
+    <fileName>Assets/SocketIO/WebsocketSharp/Net/WebSockets/WebSocketContext.cs</fileName>
+    <timeStamp>2019-02-14T13:48:16.8631469+00:00</timeStamp>
+    <typeFullName>
+      <string>WebSocketSharp.Net.WebSockets.WebSocketContext</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=1.0.2.27034, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
