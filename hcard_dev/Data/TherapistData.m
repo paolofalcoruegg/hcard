@@ -284,8 +284,9 @@ end
 % Calculate score
 deviation = abs(yuser - fitpath(xuser));
 mean_dev = mean(deviation);
-score = (100 - mean_dev^1.38);
-%1.38 chosen to give almost 0 for worst case
+score = 100*(1-tanh(mean_dev-3))/2;
+%trial and error to get a function which gives a good range of scores
+%(worst case = 0%, no movement ~ 30%, perfect = 100%)
 
 right_score = (score_angle1r +score_angle2r +score_angle3r +score_angle4r)/4;
 left_score = (score_angle1l +score_angle2l +score_angle3l +score_angle4l)/4;
@@ -298,7 +299,7 @@ subplot(3,1,1);
 plot(xuser,yuser,xpath+15,ypath)
 xlim([15, 640]);
 legend('Player path','Ideal path')
-title(['Difficulty Level : ' difficulty '     Score = ' num2str(score)]);
+title(['Difficulty Level : ' difficulty '     Score = ' num2str(score) '%']);
 xlabel('y');
 ylabel('x')
 subplot(3,1,2);
