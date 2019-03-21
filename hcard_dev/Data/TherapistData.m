@@ -287,30 +287,41 @@ mean_dev = mean(deviation);
 score = 100*(1-tanh(mean_dev-3))/2;
 %trial and error to get a function which gives a good range of scores
 %(worst case = 0%, no movement ~ 30%, perfect = 100%)
+score = round(score,2,'significant');
 
 right_score = (score_angle1r +score_angle2r +score_angle3r +score_angle4r)/4;
 left_score = (score_angle1l +score_angle2l +score_angle3l +score_angle4l)/4;
 front_score = (score_angle1f +score_angle2f +score_angle3f +score_angle4f)/4;
 back_score = (score_angle1b +score_angle2b +score_angle3b +score_angle4b)/4;
+right_score = round(right_score,2,'significant');
+left_score = round(left_score,2,'significant');
+front_score = round(front_score,2,'significant');
+back_score = round(back_score,2,'significant');
 
 % Figure showing user path compared to ideal path, angles
 figure
 subplot(3,1,1);
-plot(xuser,yuser,xpath+15,ypath)
+plot(xuser,yuser,'m','LineWidth',1)
+hold on
+plot(xpath+15,ypath,'k--','LineWidth',1)
 xlim([15, 640]);
-legend('Player path','Ideal path')
+ylim([-8,12]);
+legend('Player path','Ideal path','fontsize',8)
 title(['Difficulty Level : ' difficulty '     Score = ' num2str(score) '%']);
 xlabel('y');
-ylabel('x')
+ylabel('x');
+hold off
+
 subplot(3,1,2);
-plot(timeuser,alpha)
+plot(timeuser,alpha,'k','LineWidth',1)
 title(['Right/ Left angle       Right = ' num2str(right_score) '%    Left = ' num2str(left_score) '%'])
 xlabel('Time (s)')
 ylabel('Angle (degrees)')
 ylim([-20, 20])
 xlim([0,130]);
+
 subplot(3,1,3);
-plot(timeuser,beta)
+plot(timeuser,beta,'k','LineWidth',1)
 title(['Front/ Back angle       Front = ' num2str(front_score) '%    Back = ' num2str(back_score) '%'])
 xlabel('Time (s)')
 ylabel('Angle (degrees)')
