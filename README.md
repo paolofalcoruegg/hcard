@@ -1,4 +1,4 @@
-<p  align="center"><img width="150" src=".github/cover.png" alt="cover"></p>
+<p  align="center"><img width="150" src=".github/cover.jpeg" alt="cover"></p>
 <h1 align="center">
   Human-Centered Assistive and Rehabilative Devices
 </h1>
