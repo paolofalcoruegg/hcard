@@ -1,4 +1,4 @@
-<p  align="center"><img width="150" src=".github/cover.jpeg" alt="cover"></p>
+<p  align="center"><img width="auto" src=".github/cover.jpg" alt="cover"></p>
 <h1 align="center">
   Human-Centered Assistive and Rehabilative Devices
 </h1>
@@ -37,12 +37,12 @@
 <br>
 -->
 
-**SpaceRace** is a low-cost and widely accessible game that trains posture control & core strength. It is designed specifically for cerebral palsy patients, but can be used by anybody with access to a smartphone and computer. Rather than relying on complex mechatronic systems, SpaceRace uses the motion sensing capabilities in smartphones as a controller. The phone is attached to the player through a harness available for around $20. The goal of the game is to collect all collectables in varying environments by steering a marble through tilt and lean movements.  
+**Space Race** is a low-cost and easily accessible game that trains posture control and core strength. It is designed specifically for cerebral palsy patients, but can be used by anybody with access to a smartphone and computer. Rather than relying on complex mechatronic systems, SpaceRace uses the motion sensing capabilities in smartphones as a controller. The phone is attached to the player through a harness, which are available for around $20. The goal of the game is to collect  collectables in different levels by steering a marble through tilt and lean movements.  
 
 ### Code Structure
 
-- The [Unity development directory](https://github.com/pa17/hcard/hcard_dev/) was used for game development, with builds for Windows and MacOS. Have a look at [the README](https://github.com/pa17/hcard/server/) for more info.
-- The [server directory](https://github.com/pa17/hcard/server/) was used to develop a local webserver that delivers sensor data to the Unity client and hosts a controler UI on the smartphone. Have a look at [the README](https://github.com/pa17/hcard/server/) for more info.
+- The [Unity development directory](https://github.com/pa17/hcard/hcard_dev/) was used for game development. 
+- The [server directory](https://github.com/pa17/hcard/server/) was used to develop a local webserver that delivers sensor data to the Unity client and hosts a controler UI on the smartphone.
 
 ### Documentation
 
@@ -57,7 +57,6 @@ hcard/
     ├── README.md
     ├── hcard_dev
     │   ├── Assets
-    │   ├── BuildsMac
     │   ├── Data
     │   ├── Library
     │   ├── Logs
@@ -79,13 +78,9 @@ hcard/
 
 ### System Overview
 
-<p align="center"><img width="700" src=".github/SystemOverview.png" alt="cover"></p>
+The Unity and mobile phone are both clients to a locally hosted webserver, as shown in the figure below. Sensor data informs both a mobile UI on the phone controller as well as the actual game.
 
-### Project Development
-
-
-
-From the early stages of the project, we anticipated how the division of development should operate in order to maximise our modularity and reduce interdependencies. This made integration at the later stages far more efficient. See below for a simple graphic of the process.
+<p align="center"><img width="700" src=".github/systemDiagram.png" alt="cover"></p>
 
 ### License
 
