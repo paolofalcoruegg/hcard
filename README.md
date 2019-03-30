@@ -41,12 +41,12 @@
 
 ### Code Structure
 
-- The [Unity development directory](https://github.com/pa17/hcard/hcard_dev/) was used for game development. 
-- The [server directory](https://github.com/pa17/hcard/server/) was used to develop a local webserver that delivers sensor data to the Unity client and hosts a controler UI on the smartphone.
+- The [Unity development directory](https://github.com/pa17/hcard/tree/master/hcard_dev) was used for game development. 
+- The [server directory](https://github.com/pa17/hcard/tree/master/server) was used to develop a local webserver that delivers sensor data to the Unity client and hosts a controler UI on the smartphone.
 
 ### Documentation
 
-Throughout our code we have endeavored to leave useful comments where suitable. In addition, the whole project is including background, aims and clinical relevance are discussed in the [project report](https://github.com/pa17/hcard/projectReport/).
+Throughout our code we have endeavored to leave useful comments where suitable. In addition, the whole project is including background, aims and clinical relevance are discussed in the [project report](https://github.com/pa17/hcard/tree/master/projectReport.pdf).
 
 ### Repository Structure Tree
 
