@@ -23,6 +23,7 @@ public class PlayerControl : MonoBehaviour
     private int score;
     private float previousZ, previousX, angleX;
 
+    private float timeCount = 0.5f;
 
     // angles
     public Vector3 angles;
@@ -44,14 +45,28 @@ public class PlayerControl : MonoBehaviour
 
     private void FixedUpdate() //called before performing any calculations
     {
-
         if (flipAxis)
         {
             angles = new Vector3(Convert.ToSingle(angleReceiver.gamma), 0, 0);
+            Quaternion newRot = Quaternion.Euler(0, 2*Convert.ToSingle(angleReceiver.gamma), 0);
+            transform.rotation = newRot;
+
         }
         else
         {
-            angles = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, 0);
+            if (timeCount < 0.5f)
+            {
+                angles = new Vector3(Convert.ToSingle(angleReceiver.beta), 0, 0);
+                Quaternion oldRot = transform.rotation;
+                Quaternion newRot = Quaternion.Euler(0, 2 * Convert.ToSingle(angleReceiver.beta), 0);
+                transform.rotation = Quaternion.Slerp(oldRot, newRot, timeCount);
+                timeCount = timeCount + Time.deltaTime;
+            }
+            else
+            {
+                timeCount = 0f;
+            }
+
         }
 
         // Give it a baseSpeed towards the front
@@ -59,6 +74,7 @@ public class PlayerControl : MonoBehaviour
 
         // Adding force depending on mapping and body angle
         rb.AddForce(angles * speed/10,ForceMode.VelocityChange);
+
 
     }
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.19596928, g: 0.099721186, b: 0.12003348, a: 1}
+  m_IndirectSpecularColor: {r: 0.19595471, g: 0.099782355, b: 0.11998931, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1289,7 +1289,7 @@ PrefabInstance:
     - target: {fileID: 3930803478778325307, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 3930803478778325307, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
         type: 3}
@@ -1336,46 +1336,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325307, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325307, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325307, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: speed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: baseSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: countText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: winText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
-        type: 3}
-      propertyPath: angleText
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
         type: 3}
       propertyPath: scoreText
@@ -1384,17 +1344,17 @@ PrefabInstance:
     - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
         type: 3}
       propertyPath: flipAxis
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3930803478778325305, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
+    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 645a9de5e8a6a1b41a4f78ffb6b6b71f, type: 2}
-    - target: {fileID: 4995758301355363449, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930803478778325302, guid: 82f4abc5f1907c84da0e81e6f1c3582d,
         type: 3}
-      propertyPath: levelIndicator
-      value: swiss
+      propertyPath: baseSpeed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82f4abc5f1907c84da0e81e6f1c3582d, type: 3}
@@ -1628,18 +1588,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 308267625}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &410569621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410569613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d060aa9915a7f474c9c829e17d5cdfd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &413761403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2601814845753569855, guid: ad9ef12881465d64d914a249033a224a,
@@ -3330,6 +3278,11 @@ PrefabInstance:
     - target: {fileID: 4945718361295581003, guid: d5968133dc86d18448be4da1fb264c8b,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4945718361268510835, guid: d5968133dc86d18448be4da1fb264c8b,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
