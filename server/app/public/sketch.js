@@ -32,7 +32,7 @@ function draw() {
     rect(windowWidth/2 - 5, 0, 10, windowHeight);
 
     fill(255, 0, 0, 255);
-    ellipse(windowWidth*2*gamma/180-windowHeight/4, windowHeight*2*beta/180+windowHeight/2, 120, 120);
+    ellipse(windowWidth*gamma/180+windowWidth/2, windowHeight*beta/180+windowHeight/2, 120, 120);
 
     var posData = {
         'beta': beta, // x
